@@ -1,0 +1,93 @@
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  background-color: #19A2AE;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: 0 50%, 100% -55%;
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+
+/*Dark cyan: hsl(185, 75%, 39%) #19A2AE
+Very dark desaturated blue: hsl(229, 23%, 23%) #2D3248
+Dark grayish blue: hsl(227, 10%, 46%)  #6A6F81 */
+
+
+h1 {
+  margin: 0;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+}
+h2 {
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0;
+}
+h3 {
+  margin: 10px 0 25px 0;
+  font-weight: normal;
+  font-size: 14px;
+}
+p {
+  font-size: 11px;
+  margin: 5px 0 0 0;
+}
+
+table {
+  margin: auto;
+}
+td {
+  padding: 0 30px;
+}
+
+hr {
+  padding: 10px 0;
+  border-style:outset;
+  color: #969696;
+  border-width: 1px 0 0 0;
+
+}
+
+.bg-top {
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 135px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.container {
+  margin: auto auto;
+  width: 350px;
+  height: 380px;
+  background-color: #FBFBFB;
+  border-radius: 20px;
+}
+
+.master {
+  top: calc(50% - 175px);
+  left: calc(50% - 190px);
+  position: absolute;
+  display: inline-block;
+  margin: auto;
+}
+
+.middle {
+  padding-top: 80px;
+}
+
+.profile {
+  top: 82px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: relative;
+  margin: auto;
+}
+
+.shaddow {
+  color: #6A6F81;
+}
